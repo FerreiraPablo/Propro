@@ -1,0 +1,36 @@
+.character {
+    background-color: transparent;
+}
+
+.character.idle {
+    background-image: url("../images/character/player_idle.png") ;
+}
+
+.character.jumping {
+    background-image: url("../images/character/player_jump.png") ;
+}
+
+.character.walkingFirst {
+    background-image: url("../images/character/player_walk1.png") ;
+}
+
+.character.walkingSecond {
+    background-image: url("../images/character/player_walk1.png") ;
+}
+
+.world {
+    position: absolute;
+    bottom : 0px;
+    height :  140;
+}
+
+.block {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-color: transparent;
+}
+
+.block.metal {
+    background-image: url("../images/world/metal-block.png") ;
+}
